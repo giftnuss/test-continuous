@@ -108,6 +108,10 @@ sub runtests {
     }
 }
 
+sub prove_args {
+    @prove_args = @_
+}
+
 1;
 
 __END__
