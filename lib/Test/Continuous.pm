@@ -155,7 +155,7 @@ the implementation in Ruby's world.
 =item runtests
 
 This function starts monitoring the mtime of all files under current
-working directory. If there's any update, it'll run your module tests
+working directory. If there's any update, it runs your module tests
 under t/ directory with L<App::Prove>.
 
 You could call it from command line like this:
@@ -187,7 +187,7 @@ If a C<.t> file is modified, only that test file will be ran.
 
 Test::Continuous requires no configuration files or environment variables.
 
-Your C<.proverc> is not loaded, although it's based on L<App::Prove>.
+Your C<.proverc> is not loaded, even though it's based on L<App::Prove>.
 
 =head1 DEPENDENCIES
 
@@ -209,7 +209,6 @@ L<http://rt.cpan.org>.
 =head1 AUTHOR
 
 Kang-min Liu  C<< <gugod@gugod.org> >>
-
 
 =head1 LICENCE AND COPYRIGHT
 
